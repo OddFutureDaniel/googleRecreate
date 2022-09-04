@@ -1,0 +1,273 @@
+* {
+  font-family: "Arial", sans-serif;
+  font-size: 14px;
+  margin: 0;
+  background-color: rgb(32, 32, 32);
+}
+
+.navContainer {
+  display: flex;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 0.87);
+  cursor: pointer;
+  height: 10vh;
+}
+
+.navbarLeft ul {
+  display: flex;
+  list-style: none;
+  padding: 20px;
+}
+
+.navbarLeft ul li {
+  display: flex;
+  margin: 10px;
+}
+
+.navbarLeft ul li:hover {
+  text-decoration: underline;
+}
+
+.navbarRight ul {
+  display: flex;
+  list-style: none;
+  padding: 20px;
+}
+
+.navbarRight ul li {
+  display: flex;
+  margin: 10px;
+}
+
+.navbarRight ul li:hover {
+  text-decoration: underline;
+}
+
+.googleAppsButton {
+  all: unset;
+  cursor: pointer;
+  width: auto;
+  height: auto;
+}
+
+.googleAppsButton svg {
+  margin-top: -4px;
+  fill: currentColor;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+
+.navContainer,
+.mainContainer {
+  background-color: rgb(32, 32, 32);
+}
+
+.mainContainer {
+  height: 60vh;
+  width: auto;
+}
+
+.logoContainer {
+  display: flex;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.logo img {
+  display: flex;
+  max-width: 50%;
+  width: auto;
+  margin: auto;
+  padding: 10px;
+}
+
+.searchBarContainer {
+  margin: 15px;
+}
+
+.searchButtonContainer {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.searchbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#form:hover {
+  background-color: #3a3b3d;
+  border: 1px solid #3a3b3d;
+}
+
+.searchButtonLeft {
+  margin-right: 5px;
+}
+
+.googleSearch {
+  border-radius: 4px;
+  background-color: #3a3b3d;
+  color: azure;
+  height: 36px;
+  min-width: 54px;
+  border: 1px solid #3a3b3d;
+  font-size: 14px;
+  padding: 0 16px;
+  cursor: pointer;
+}
+
+.googleSearch:hover {
+  border: 1px solid #7a7e85;
+}
+
+.searchButton {
+  all: unset;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+}
+
+.searchButton svg {
+  color: #bdc1c6;
+  fill: currentColor;
+  width: 20px;
+  height: 20px;
+  padding: 13px;
+  background-color: transparent;
+}
+
+.micButton {
+  all: unset;
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+}
+
+.micButton svg {
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+#form {
+  background-color: transparent;
+  border: 1px solid #5f6368;
+  width: 600px;
+  height: 44px;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+}
+
+.formInput {
+  all: unset;
+  font: 16px system-ui;
+  color: #fff;
+  height: 100%;
+  width: 100%;
+  padding: 6px 10px;
+}
+
+.searchButtonRight {
+  margin-left: 5px;
+}
+
+.feelingLucky {
+  border-radius: 4px;
+  background-color: #3a3b3d;
+  color: azure;
+  height: 36px;
+  min-width: 54px;
+  border: 1px solid #3a3b3d;
+  font-size: 14px;
+  padding: 0 16px;
+  cursor: pointer;
+}
+
+.feelingLucky:hover {
+  border: 1px solid #7a7e85;
+}
+
+.footer {
+  background-color: rgb(23, 23, 23);
+  height: 20vh;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  color: #bdc1c6;
+  padding-bottom: 10px;
+}
+
+.footer * {
+  background-color: rgb(23, 23, 23);
+  color: #949aa0;
+}
+
+.top {
+  border-bottom: 1px solid #424447;
+  display: flex;
+
+  width: 100vw;
+  margin: auto;
+}
+
+.top p {
+  padding: 10px;
+}
+
+.middle {
+  display: flex;
+  padding: 10px;
+  margin: auto;
+}
+
+.middle img {
+  height: 14px;
+  margin-right: 7px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  flex-wrap: wrap;
+  width: 100vw;
+  margin: auto;
+  height: auto;
+}
+
+.bottom ul {
+  display: flex;
+  list-style: none;
+  margin: auto;
+}
+.bottom ul li {
+  display: flex;
+  padding: 10px;
+  margin: auto;
+}
+
+.bottom ul li:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.bottomLeft {
+  display: flex;
+  order: 1;
+}
+
+.bottomRight {
+  display: flex;
+  order: 2;
+}
