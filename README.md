@@ -22,3 +22,11 @@
 #### On VSCode
 1. Download the 'LiverServer' extension
 2. Right-click on index.html in the explorer tab and select 'Open with Liveserver'
+
+## Additional Notes
+
+This was my first project post graduating, taking roughly 15 hours including research and coding.
+
+After recreating the page for a laptop browser I quickly found out about responsive website design and completely restructured my html and css to try and adopt these design practices.
+
+The page isn't completely responsive but adapts well to standard laptop and phone size, scaling smaller than this caused sizing issues that I will do further research on for my next frontend project.
